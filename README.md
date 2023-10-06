@@ -87,7 +87,7 @@ This course and its content are licensed under the Creative Commons Attribution-
 ---
 
 <p align="center">
-  <img src="https://static.vecteezy.com/system/resources/previews/011/260/238/non_2x/html5-css3-js-icon-set-web-development-logo-icon-set-of-html-css-and-javascript-programming-symbol-free-vector.jpgl" alt="Course Logo" >
+  <img src="https://static.vecteezy.com/system/resources/previews/011/260/238/non_2x/html5-css3-js-icon-set-web-development-logo-icon-set-of-html-css-and-javascript-programming-symbol-free-vector.jpg" alt="Course Logo" >
   <img src="https://t4.ftcdn.net/jpg/02/49/94/33/360_F_249943326_f7mjadK5mPdmJbBiHSeQ7DmhttSZVkG1.jpg" alt="Course Logo">
 </p>
 
