@@ -88,7 +88,7 @@ This course and its content are licensed under the Creative Commons Attribution-
 
 <p align="center">
   <img src="https://static.vecteezy.com/system/resources/previews/011/260/238/non_2x/html5-css3-js-icon-set-web-development-logo-icon-set-of-html-css-and-javascript-programming-symbol-free-vector.jpg" alt="Course Logo" >
-  <img src="https://t4.ftcdn.net/jpg/02/49/94/33/360_F_249943326_f7mjadK5mPdmJbBiHSeQ7DmhttSZVkG1.jpg" alt="Course Logo">
+  <img src="https://cloudemployee.co.uk/media/1222199/banner_angularreactvue_jan2022-01.webp" alt="Course Logo">
 </p>
 
 [![Made with ❤️ by Kunal Arya](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Kunal%20Arya-blue)](https://github.com/kunalarya873)
