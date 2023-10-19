@@ -1,0 +1,7 @@
+div {
+    height:50px;
+    width:100px;
+    background-color:grey;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}

@@ -1,7 +1,30 @@
+body {
+    text-align: center;
+}
 div {
-    height:50px;
+    height:100px;
     width:100px;
-    background-color:grey;
-    background-image: url("amazon_logo.png");
-    background-size: cover;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: darkkhaki;
+}
+#box4 {
+    background-color: indianred;
+}
+#box5 {
+    background-color: slateblue;
 }
