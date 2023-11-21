@@ -69,3 +69,21 @@ console.log("Object is ",obj.item,  "and its price is ", obj.price, "rupees");
 let name = prompt("Enter you name");
 name = name.trim()
 alert(`Your Username is ${name+ '@gmail.com'}`)
+
+
+let marks=[85, 97, 44, 37, 76, 60];
+let sum=0;
+for(let val of marks){
+    sum += val;
+}
+console.log('Mean of marks are ' , sum/marks.length);
+
+let items= [250, 645, 300, 900, 50];
+let discounted = [];
+for(let val of items){
+    let disVal = val * .1;
+    discounted.push(val - disVal);
+}
+console.log(discounted)
+
+
