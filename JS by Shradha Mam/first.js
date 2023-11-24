@@ -87,3 +87,34 @@ for(let val of items){
 console.log(discounted)
 
 
+function returnVowel(argu){
+    let numberOfVowel = 0;
+    for(let i=0; i<argu.length; i++){
+        if(argu[i] == 'a'|| argu[i] == 'A'){
+            numberOfVowel++;
+        }
+        if(argu[i] == 'e'|| argu[i] == 'E'){
+            numberOfVowel++;
+        }
+        if(argu[i] == 'i'|| argu[i] == 'I'){
+            numberOfVowel++;
+        }
+        if(argu[i] == 'o'|| argu[i] == 'O'){
+            numberOfVowel++;
+        }
+        if(argu[i] == 'u' || argu[i] == 'U'){
+            numberOfVowel++;
+        }
+    }
+    console.log(numberOfVowel)
+}
+
+returnVowel("Kunal Arya");
+
+//Question on forEach loop
+
+let num= [1,2,3,4];
+
+num.forEach((num) => {
+    console.log(num ** 2)
+})

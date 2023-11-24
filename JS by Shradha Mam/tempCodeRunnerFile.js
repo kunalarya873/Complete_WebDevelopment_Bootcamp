@@ -1,7 +1,5 @@
-let items= [250, 645, 300, 900, 50];
-let discounted = [];
-for(let val of items){
-    let disVal = val * .1;
-    discounted.push(val - disVal);
-}
-console.log(discounted)
+let num= [1,2,3,4];
+
+num.forEach((num) => {
+    console.log(num ** 2)
+})
