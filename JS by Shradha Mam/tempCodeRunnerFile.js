@@ -1,5 +1,8 @@
-let num= [1,2,3,4];
+let ne = prompt("Give me a number");
 
-num.forEach((num) => {
-    console.log(num ** 2)
-})
+let arr = [];
+
+for(i=1; i<ne; i++){
+    arr.push(i);
+}
+console.log(arr);

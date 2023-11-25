@@ -118,3 +118,23 @@ let num= [1,2,3,4];
 num.forEach((num) => {
     console.log(num ** 2)
 })
+arr = [29, 22, 90, 91, 97, 33, 95];
+
+
+//Question on Filter
+let newArray = arr.filter((val) =>{
+    return val >90 ;
+}
+)
+console.log(newArray);
+
+//Question 
+
+let ne = prompt("Give me a number");
+
+let arr10 = [];
+
+for(i=1; i<=ne; i++){
+    arr10.push(i);
+}
+console.log(arr10);
