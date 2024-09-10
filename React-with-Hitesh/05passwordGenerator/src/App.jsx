@@ -8,6 +8,8 @@ function App() {
   const [password, setPassword] = useState("")
 
   const passwordRef= useRef(null);
+
+
   const passwordGenerator = useCallback(() => {
     let result = ""
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -19,11 +21,15 @@ function App() {
     }
     return setPassword(result)
   },[length, charAllowed, numberAllowed, setPassword])
+
+
   const copyPasswordtoClickboard = useCallback(()=>{
     passwordRef.current?.select()
     passwordRef.current?.setSelectionRange(0, length);
     window.navigator.clipboard.writeText(password)
   }, [password])
+
+  
   useEffect( ()=>{
     passwordGenerator()
   },[length, numberAllowed, charAllowed, passwordGenerator])
